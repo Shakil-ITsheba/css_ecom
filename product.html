@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- nav bar start here -->
+
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper
+        flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Logout</a>
+            </li>
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile-icon" src="./images/Shakil Mahmud.JPG" alt="">
+                </a>
+            </li>
+        </ul>
+
+
+        <ul class="nav-lower
+        flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__brand nav__link">Ecommerce Express</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="cart.html" class="nav__link">
+                    <span><i class="fa-solid
+                        fa-cart-shopping"></i></span>
+                    Cart 2 products - $200.00</a>
+            </li>
+        </ul>
+
+
+    </nav>
+
+    <!-- nav bar end here -->
+
+    <main>
+        <div class="main-content">
+            <section class="peoduct-details flex-center">
+                <div class="product__details-left flex-center">
+                    <img src="./images/Watch.jpg" alt="product1">
+                </div>
+
+                <div class="product__details-right">
+                    <h3 class="product__name">Rolax Watch</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product__description">
+                            <strong>Description</strong>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolore at ut et, ipsam itaque esse delectus adipisci soluta totam vitae, reprehenderit tempora eveniet eius. Reprehenderit cupiditate dolorum praesentium possimus?
+                        </p><br>
+                        <p class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolore at ut et, ipsam itaque esse delectus adipisci soluta totam vitae, reprehenderit tempora eveniet eius. Reprehenderit cupiditate dolorum praesentium possimus?
+                        </p><br>
+                        <p class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolore at ut et, ipsam itaque esse delectus adipisci soluta totam vitae, reprehenderit tempora eveniet eius. Reprehenderit cupiditate dolorum praesentium possimus?
+                        </p>
+                        <h4 class="product__category">Category: Man's Watch</h4>
+                        <h4 class="product__price">Price: $250</h4>
+                        <p class="product__rating">Rating: 4.5/5</p>
+                        <button class="btn product__button">Add to Cart</button>
+                        <button class="btn product__button">Back To Shopping</button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- footer start here -->
+
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" 
+            class="footer__input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Ecommerce Express. All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- Footer end here -->
+
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
